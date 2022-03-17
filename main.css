@@ -1,24 +1,33 @@
 body{
     background-color: #ffffff;
+
 }
 
 
 .container{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
-
-    position: static;
-    width: 360px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 0px 0px;
 }
+
+.header_home{
+    display: flex;
+    /*padding: 32px 0 32px 0;*/
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.barra_pesquisa input{
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    border: none;
+    padding: 15px 95px 15px 15px;
+    animation: none;
+}
+
+.barra_pesquisa{
+    margin-left: 15px;
+}
+
