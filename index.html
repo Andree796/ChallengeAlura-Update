@@ -5,22 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/580e414c0a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header_home">
-                <h1><img src="Logo.png" alt="Logo alura"></h1>
-                <div class="barra_pesquisa">
+    <header class="CabecalhoPrincipal">
+        <div class="Container">
+            <div class="CabecalhoPrincipal-Home">
+                    <h1><img src="Logo.png" alt="Logo alura" class="Logo"></h1>
                     <input type="text" class="barra_de_pesquisa" placeholder="O que deseja encontrar?">
-                </div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
             </div>
+
+            <nav class="CabecalhoPrincipal-Botao">
+                <a href="login.html"><input type="submit" name="Login" id="Login" class="Login" value="Login"></a>
+            </nav>
+
         </div>
     </header>
-
-    <img src="banner-image.png" alt="Baner Personalizado" class="banner">
+    
+    <div class="ContainerBanner">
+        <img src="banner-image.png" alt="Baner Personalizado" class="banner">
+    </div>
+    <div class="Container">
+        <h1 class="TextoTitulo">Dezembro Promocional</h1>
+    </div>
 
 </body>
 </html>
