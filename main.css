@@ -74,6 +74,31 @@ i:hover{
     font-size: 52px;
     color: #ffffff;
     position: absolute;
-    top: 4.5em;
+    top: 4.2em;
+}
 
+.Descricao{
+    font-family: 'Raleway', sans-serif;
+    font-weight : 700;
+    font-size: 22px;
+    color: #ffffff;
+    position: absolute;
+    top: 13em;
+}
+
+.Consoles{
+    position: absolute;
+    top: 25em;
+    width: 11.5em;
+    height: 4em;
+    font-family: 'Raleway', sans-serif;
+    border: solid 0.1em #2A7AE4;
+    color: #ffffff;
+    background: #2A7AE4;
+    cursor: pointer;
+}
+
+.Consoles:hover{
+    background: #76a5db;
+    border: #2A7AE4;
 }
