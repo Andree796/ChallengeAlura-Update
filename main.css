@@ -60,21 +60,26 @@ i:hover{
     background: #cedcec;
 }
 
-.banner{
-    width: 85.4em;
+
+.ContainerBanner{
+    width: 100%;
 }
 
 
-/*.ContainerBanner{
-}*/
-
-.Container .TextoTitulo{
+.ContainerBanner-Textos{
+    display: flex;
+    font-weight : 700;
+    width: 85%;
+    flex-direction: column;
+    height: 170px;
+    left: 10%;
+    justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     font-weight : 700;
     font-size: 52px;
     color: #ffffff;
     position: absolute;
-    top: 4.2em;
+    top: 4em;
 }
 
 .Descricao{
@@ -82,14 +87,10 @@ i:hover{
     font-weight : 700;
     font-size: 22px;
     color: #ffffff;
-    position: absolute;
-    top: 13em;
 }
 
 .Consoles{
-    position: absolute;
-    top: 25em;
-    width: 11.5em;
+    width: 10em;
     height: 4em;
     font-family: 'Raleway', sans-serif;
     border: solid 0.1em #2A7AE4;
@@ -98,7 +99,186 @@ i:hover{
     cursor: pointer;
 }
 
+.banner{
+    width: 84.3em;
+}
+
+
 .Consoles:hover{
     background: #76a5db;
     border: #2A7AE4;
+}
+
+.ContainerProdutos{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.containerSuperior{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+    align-items: baseline;
+    padding-left: 5px;
+}
+
+.listaStar-Wars{
+    display: flex;
+    width: 80%;
+    margin-top: 2em; 
+    justify-content: space-between;   
+    font-family: 'Raleway', sans-serif;
+    height: 20em;
+}
+
+.VideoGames{
+    display: flex;
+    width: 80%;
+    margin-top: 2em; 
+    justify-content: space-between;   
+    font-family: 'Raleway', sans-serif;
+    height: 24em;
+}
+
+.listaStar-Wars a, .VideoGames a{
+    text-decoration: none;
+    font-weight: 700;
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
+.listaStar-Wars li, .VideoGames li{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.dinheiro{
+    font-weight: bold;
+}
+
+.tituloUl{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+}
+
+.VerMais{
+    color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font: 16px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+/* .VerMais::after{
+    content: url(seta.png);
+} */
+
+.rodapePrincipal{
+    background-color: #EAF2FD;
+    width: 100%;
+}
+
+.ContainerFooter{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 3em 0 3em;
+}
+
+/* .navbar{
+  
+} */
+
+.navbarInfo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-left: 5em;
+    
+}
+
+.navbarInfo li{
+    margin-bottom: 2em;
+}
+/* .navBar-Footer{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navBar-Footer li{
+    margin-bottom: 1.7em;
+} */
+
+
+.RodapeForm-ContatoForm{
+    padding-left: 105px;
+}
+
+.EmailInput{
+    width: 560px;
+    height: 56px;
+    background-color:#FFFFFf ;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgb(128, 128, 128) 0px 1px 0px 0px;
+    margin-bottom: 15px;
+}
+
+.MsgInput{
+    width: 560px;
+    height: 82px;
+    background-color:#FFFFFf ;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgb(128, 128, 128) 0px 1px 0px 0px;
+    margin-bottom: 15px;
+}
+
+.RodapeContato-Legend{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.EmailInput::placeholder, .MsgInput::placeholder{
+    position: absolute;
+    top: 8px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400;
+    left: 10px;
+    font-size: 12px;
+}
+
+.FormMensagem{
+    display: flex;
+    flex-direction: column;
+}
+
+.Enviar{
+    width: 165px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400;
+    background-color: #2A7AE4;
+    color: #FFFFFf;
+}
+
+
+
+
+.RodapeSecundario{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.RodapeSecundario p{
+    padding: 3px;
 }
