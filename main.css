@@ -1,9 +1,11 @@
 body{
-    background-color: #ffffff;
+    background-color: #E5E5E5E5;
 }
+
 
 .CabecalhoPrincipal{
     padding: 15px 0;
+    background-color: #FFFFFf;
 }
 
 .Container{
@@ -110,8 +112,9 @@ i:hover{
 }
 
 .ContainerProdutos{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
+    /* height: 500px; */
 }
 
 .containerSuperior{
@@ -120,16 +123,56 @@ i:hover{
     margin-top: 4em;
     align-items: baseline;
     padding-left: 5px;
+    margin-bottom: 2em;
+    width: 96%;
 }
 
-.listaStar-Wars{
+
+.ConteudoPrincipal-Itens{
     display: flex;
-    width: 80%;
-    margin-top: 2em; 
-    justify-content: space-between;   
-    font-family: 'Raleway', sans-serif;
-    height: 20em;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
 }
+
+.TextosAnuncios{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextosAnuncios li{
+    margin-bottom: 7px;
+}
+
+.Anuncios{
+    margin-top: 7px;
+    padding-left: 6px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.Anuncios li{
+    margin-bottom: 7px;
+}
+
+.Anuncios a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #2A7AE4;
+}
+
+.Primeirasfotos{
+    display: flex;
+}
+
+.ConteudoPrincipal-Itens .ConteudoPrincipal{
+    margin: 5px;
+}
+/* .item1{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-start;
+} */
 
 .VideoGames{
     display: flex;
@@ -160,7 +203,6 @@ i:hover{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    display: flex;
 }
 
 .VerMais{
@@ -169,7 +211,12 @@ i:hover{
     font: 16px;
     font-weight: 700;
     cursor: pointer;
+}
 
+.Anuncios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /* .VerMais::after{
@@ -179,6 +226,8 @@ i:hover{
 .rodapePrincipal{
     background-color: #EAF2FD;
     width: 100%;
+    margin-top: 15em;
+
 }
 
 .ContainerFooter{
@@ -197,7 +246,11 @@ i:hover{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     padding-left: 5em;
-    
+}
+
+.navbarInfo a{
+    text-decoration: none;
+    color: #464646;
 }
 
 .navbarInfo li{
@@ -269,16 +322,118 @@ i:hover{
 }
 
 
-
-
 .RodapeSecundario{
     padding: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
 }
 
 .RodapeSecundario p{
     padding: 3px;
 }
+
+
+
+@media(max-width: 768px){
+    .Container{
+        width: auto;
+        margin: auto 20px;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    /* .CabecalhoPrincipal-Botao{
+        position: absolute;
+        right:  150px;
+    } */
+
+    .Logo{
+        width: 125px;
+    }
+
+   .ContainerBanner-Textos{
+       width: auto;
+       left: 7%;
+       height: 130px;
+       top: 50%;
+   }
+   .ContainerBanner-Textos h1{
+       font-size: 22px;
+       font-weight: bold;
+   }
+   .ContainerBanner-Textos p{
+       font-size: 14px;
+       font-weight: 600;
+   }
+
+   .ContainerProdutos{
+        width: auto;
+        margin: auto 10px;
+    }
+
+   .containerSuperior{
+       margin-top: 1em;
+   }
+   
+   .ConteudoPrincipal-Itens{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+   }
+
+   .Primeirasfotos{
+       display: flex;
+       justify-content: center;
+   }
+
+   .ConteudoPrincipal{
+        width: 45%;
+   }
+
+   /* .imagem{
+       width: 99%;
+   } */
+
+   .ContainerFooter{
+       flex-wrap: wrap;
+   }
+
+   .navbarInfo{
+       text-align: center;
+       padding: 0;
+       padding-top: 20px;
+       padding-bottom: 15px;
+   }
+
+   .RodapeForm-ContatoForm{
+       padding: 0;
+   }
+
+   .EmailInput{
+        width: 328px;
+
+   }
+
+   .MsgInput{
+       width: 328px;
+   }
+
+   .RodapeSecundario{
+        padding: 2em;
+   }
+
+   .TextosAnuncios{
+       font-size: 14px;
+       flex-wrap: wrap;
+       width: auto;
+   }
+}
+
+
+/* @media(max-width: 375px){
+
+
+} */
