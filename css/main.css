@@ -92,7 +92,7 @@ body{
 }
 
 .visualizar__tudo--seta::after{
-    content: url(/Images/seta.png);
+    content: url(Images/seta.png);
     position: absolute;
     right:20px;
     font-size: 5px;
