@@ -1,439 +1,323 @@
 body{
-    background-color: #E5E5E5E5;
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
 }
 
-
-.CabecalhoPrincipal{
-    padding: 15px 0;
-    background-color: #FFFFFf;
-}
-
-.Container{
+/* CABEÇALHO */
+.cabecalho{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
 }
 
-.CabecalhoPrincipal-Home{
-    display: flex;
-    align-items:center;
+.cabecalho_logo{
+    width: 110px;
 }
 
-.CabecalhoPrincipal-Home .barra_de_pesquisa{
-    margin-left: 3em;
-}
-
-.barra_de_pesquisa{
-    border-radius: 30px;
-    background-color: #f5f5f5;
-    border: none;
-    padding: 15px 150px 15px 15px;
-    font-family: 'Raleway', sans-serif;
-    height: 0.5em;
-}
-
-i{
-   position: relative;
-   top: 0em;
-   right: 2.5em;
-   color: #a2a2a2;
-}
-
-i:hover{
-    cursor: pointer;
-}
-
-.CabecalhoPrincipal-Botao{
-   padding-top: 0.5em;
-}
-
-.Login{
-    width: 11.5em;
-    height: 3em;
-    font-family: 'Raleway', sans-serif;
+.cabecalho_login{
     border: solid 0.1em #2A7AE4;
     color: #2A7AE4;
     background: none;
+    width: 8em;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
 }
 
-.Login:hover{
-    background: #cedcec;
+.aba__pesquisar{
+    display: none;
 }
 
-
-.ContainerBanner{
-    width: 100%;
-}
-
-
-.ContainerBanner-Textos{
-    display: flex;
-    font-weight : 700;
-    width: 85%;
-    flex-direction: column;
-    height: 170px;
-    left: 10%;
-    justify-content: space-between;
-    font-family: 'Raleway', sans-serif;
-    font-weight : 700;
-    font-size: 52px;
-    color: #ffffff;
-    position: absolute;
-    top: 4em;
-}
-
-.Descricao{
-    font-family: 'Raleway', sans-serif;
-    font-weight : 700;
-    font-size: 22px;
-    color: #ffffff;
-}
-
-.Consoles{
-    width: 10em;
-    height: 4em;
-    font-family: 'Raleway', sans-serif;
-    border: solid 0.1em #2A7AE4;
-    color: #ffffff;
-    background: #2A7AE4;
-    cursor: pointer;
-}
-
-.banner{
-    width: 84.3em;
-}
-
-
-.Consoles:hover{
-    background: #76a5db;
-    border: #2A7AE4;
-}
-
-.ContainerProdutos{
-    width: 85%;
-    margin: 0 auto;
-    /* height: 500px; */
-}
-
-.containerSuperior{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 4em;
-    align-items: baseline;
-    padding-left: 5px;
-    margin-bottom: 2em;
-    width: 96%;
-}
-
-
-.ConteudoPrincipal-Itens{
-    display: flex;
-    justify-content: flex-start;
-    /* flex-wrap: wrap; */
-}
-
-.TextosAnuncios{
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: space-between;
-}
-
-.TextosAnuncios li{
-    margin-bottom: 7px;
-}
-
-.Anuncios{
-    margin-top: 7px;
-    padding-left: 6px;
-    font-family: 'Raleway', sans-serif;
-
-}
-
-.Anuncios li{
-    margin-bottom: 7px;
-}
-
-.Anuncios a{
-    text-decoration: none;
-    font-weight: 700;
-    color: #2A7AE4;
-}
-
-.Primeirasfotos{
-    display: flex;
-}
-
-.ConteudoPrincipal-Itens .ConteudoPrincipal{
-    margin: 5px;
-}
-/* .item1{
-    display: flex;
-    flex-direction: wrap;
-    justify-content: flex-start;
-} */
-
-.VideoGames{
-    display: flex;
-    width: 80%;
-    margin-top: 2em; 
-    justify-content: space-between;   
-    font-family: 'Raleway', sans-serif;
-    height: 24em;
-}
-
-.listaStar-Wars a, .VideoGames a{
-    text-decoration: none;
-    font-weight: 700;
-    font-weight: bold;
-    color: #2A7AE4;
-}
-
-.listaStar-Wars li, .VideoGames li{
-    padding-bottom: 5px;
-    padding-left: 5px;
-}
-
-.dinheiro{
-    font-weight: bold;
-}
-
-.tituloUl{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.VerMais{
-    color: #2A7AE4;
-    font-family: 'Raleway', sans-serif;
-    font: 16px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.Anuncios{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-/* .VerMais::after{
-    content: url(seta.png);
-} */
-
-.rodapePrincipal{
-    background-color: #EAF2FD;
-    width: 100%;
-    margin-top: 15em;
-
-}
-
-.ContainerFooter{
-    display: flex;
-    width: 85%;
-    margin: 0 auto;
-    justify-content: space-around;
-    padding: 3em 0 3em;
-}
-
-/* .navbar{
-  
-} */
-
-.navbarInfo{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    padding-left: 5em;
-}
-
-.navbarInfo a{
-    text-decoration: none;
+#cabecalho_lupa{
     color: #464646;
 }
 
-.navbarInfo li{
-    margin-bottom: 2em;
-}
-/* .navBar-Footer{
-    font-family: 'Raleway', sans-serif;
-}
-
-.navBar-Footer li{
-    margin-bottom: 1.7em;
-} */
-
-
-.RodapeForm-ContatoForm{
-    padding-left: 105px;
+/* BANNER */
+.banner_section{
+    width: 100%;
+    height: 154px;
+    object-fit: cover;
 }
 
-.EmailInput{
-    width: 560px;
-    height: 56px;
-    background-color:#FFFFFf ;
-    border-radius: 5px;
-    border: none;
-    box-shadow: rgb(128, 128, 128) 0px 1px 0px 0px;
-    margin-bottom: 15px;
+.wallpaper_infos{
+    position: absolute;
+    padding-top: 55px;
+    padding-left: 10px;
 }
 
-.MsgInput{
-    width: 560px;
-    height: 82px;
-    background-color:#FFFFFf ;
-    border-radius: 5px;
-    border: none;
-    box-shadow: rgb(128, 128, 128) 0px 1px 0px 0px;
-    margin-bottom: 15px;
+.wallpaper_infos h1{
+   font-size: 22px;
+   font-weight: 700;
+   color: #FFFFFF;
+   margin-bottom: 5px;
 }
 
-.RodapeContato-Legend{
-    font-family: 'Raleway', sans-serif; 
+.wallpaper_infos p{
+   font-size: 14px;
+   font-weight: 600;
+   color: #FFFFFF;
+   margin-bottom: 5px;
+}
+
+.wallpaper_button{
+    border: solid 0.1em #2A7AE4;
+    color: #FFFFFF;
+    background-color: #2A7AE4 ;
+    width: 8em;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* MAIN */
+.textos__principais{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.visualizar__tudo{
+    padding-right: 25px;
+    width: 75px;
+    font-size: 14px;
     font-weight: 700;
-    margin-bottom: 10px;
+    color: #2A7AE4;
+    text-decoration: none;
+    display: flex;
+}
+
+.visualizar__tudo--seta::after{
+    content: url(/Images/seta.png);
+    position: absolute;
+    right:20px;
+    font-size: 5px;
+}
+
+.principal h2{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.barra__nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.barra__nav img{
+    width: 135px;
+    margin-bottom: 5px;
+}
+
+.lista__itens .produto, .preco{
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+}
+
+.ver__produto{
+    height: 25px;
+}
+
+.lista__itens .preco{
+    font-weight: 700;
     font-size: 16px;
 }
 
-.EmailInput::placeholder, .MsgInput::placeholder{
-    position: absolute;
-    top: 8px;
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 400;
-    left: 10px;
-    font-size: 12px;
-}
-
-.FormMensagem{
-    display: flex;
-    flex-direction: column;
-}
-
-.Enviar{
-    width: 165px;
-    height: 51px;
-    border: none;
+.link__verProdutos{
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 14px;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 400;
-    background-color: #2A7AE4;
-    color: #FFFFFf;
 }
 
+.principal h3{
+    padding: 15px;
+    font-weight: 700;
+    font-size: 22px;
+}
 
-.RodapeSecundario{
-    padding: 3em;
+.produto__console, .produto__diversos{
+    font-size: 12px;
+    font-weight: 500;
+    height: 20px;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #EAF2FD;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 30em;
+}
+
+.imagem__titulo{
+    padding: 10px;
+
+}
+
+.lista__rodape a{
+    text-decoration: none;
+    color: #464646;
+    align-items: center;
+}
+
+.lista__rodape{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+
+.lista__rodape li{
+    height: 25px;
+    font-size: 15px;
+}
+
+.form__formulario{
+    width: 90%;
+    font-weight: 700;
+    font-size: 16px;
+    flex-direction: column;
+    display: flex;
+}
+
+.form__formulario label{
+    margin-bottom: 5px;
+}
+.input__form--nome{
+    height: 56px;
+    width: auto;
+    margin-bottom: 10px;
+    border: none;
+}
+.input__form--mensagem{
+    height: 82px;
+    width: auto;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.input__form--mensagem::placeholder, .input__form--nome::placeholder{
     font-family: 'Raleway', sans-serif;
-    background-color: #ffffff;
+    position: absolute;
+    left: 5px;
 }
 
-.RodapeSecundario p{
-    padding: 3px;
+.enviar{
+    width: 151px;
+    height: 40px;
+    border: solid 0.1em #2A7AE4;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    font-size: 14px;
+    font-weight: 600;
 }
 
+.rodape__secundario{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.rodape__secundario p{
+    height: 20px;
+}
 
-@media(max-width: 768px){
-    .Container{
-        width: auto;
-        margin: auto 20px;
-        justify-content: space-between;
-        align-items: end;
-    }
+.item--desktop{
+    display: none;
+}
 
-    /* .CabecalhoPrincipal-Botao{
-        position: absolute;
-        right:  150px;
-    } */
-
-    .Logo{
-        width: 125px;
-    }
-
-   .ContainerBanner-Textos{
-       width: auto;
-       left: 7%;
-       height: 130px;
-       top: 50%;
-   }
-   .ContainerBanner-Textos h1{
-       font-size: 22px;
-       font-weight: bold;
-   }
-   .ContainerBanner-Textos p{
-       font-size: 14px;
-       font-weight: 600;
-   }
-
-   .ContainerProdutos{
-        width: auto;
-        margin: auto 10px;
-    }
-
-   .containerSuperior{
-       margin-top: 1em;
-   }
-   
-   .ConteudoPrincipal-Itens{
-        display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-   }
-
-   .Primeirasfotos{
-       display: flex;
-       justify-content: center;
-   }
-
-   .ConteudoPrincipal{
-        width: 45%;
-   }
-
-   /* .imagem{
-       width: 99%;
-   } */
-
-   .ContainerFooter{
-       flex-wrap: wrap;
-   }
-
-   .navbarInfo{
-       text-align: center;
-       padding: 0;
-       padding-top: 20px;
-       padding-bottom: 15px;
-   }
-
-   .RodapeForm-ContatoForm{
-       padding: 0;
-   }
-
-   .EmailInput{
-        width: 328px;
-
-   }
-
-   .MsgInput{
-       width: 328px;
-   }
-
-   .RodapeSecundario{
-        padding: 2em;
-   }
-
-   .TextosAnuncios{
-       font-size: 14px;
-       flex-wrap: wrap;
-       width: auto;
-   }
+.imagem__titulo--desktop{
+    display: none;
 }
 
 
-/* @media(max-width: 375px){
+/* LOGIN */
+.form_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 75px
 
+    
+}
 
-} */
+.input_sessao{
+    font-weight: 700;
+    font-size: 16px;
+    height: 25px;
+}
+
+.input__email{
+    height: 41px;
+    width: 275px;
+    margin-bottom: 7px;
+}
+
+.input__senha{
+    height: 41px;
+    width: 275px;
+    margin-bottom: 7px;
+}
+
+.input__email::placeholder, .input__senha::placeholder{
+    font-family: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.button__entrar{
+    border: solid 0.1em #2A7AE4;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    width: 109px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* PRODUTOS */
+.imagem__Produto{
+    width: 360px;
+    height: 192px;
+}
+
+.textos__itens{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.textos__itens .titulo__secundario{
+   font-family: 500;
+   font-size: 22px;
+   height: 30px;
+}
+
+.informacoes__produto{
+    font-weight: 700;
+    font-size: 16px;
+    height: 25px;
+}
+
+.texto__produto{
+    width: 328px;
+    height: 128px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
