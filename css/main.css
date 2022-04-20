@@ -92,7 +92,7 @@ body{
 }
 
 .visualizar__tudo--seta::after{
-    content: url(Images/seta.png);
+    content: url(../Images/seta.png);
     position: absolute;
     right:20px;
     font-size: 5px;
@@ -292,18 +292,24 @@ body{
 }
 
 /* PRODUTOS */
-.imagem__Produto{
-    width: 360px;
+.imagem__Produto--movel{
+    width: 100%;
     height: 192px;
+}
+
+.imagem__Produto--desktop{
+    display: none;
 }
 
 .textos__itens{
     width: 90%;
     margin: 0 auto;
+    /* padding: 30px; */
 }
 
 .textos__itens .titulo__secundario{
-   font-family: 500;
+    margin-top: 15px;
+   font-weight: 500;
    font-size: 22px;
    height: 30px;
 }
@@ -315,8 +321,8 @@ body{
 }
 
 .texto__produto{
-    width: 328px;
-    height: 128px;
+    width: 100%;
+    height: 150px;
     font-size: 14px;
     font-weight: 400;
 }

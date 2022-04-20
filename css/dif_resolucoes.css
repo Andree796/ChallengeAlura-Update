@@ -1,409 +1,197 @@
-/* NOTEBOOK */
-@media (min-width: 1024px) and (max-width: 1365px){
+@media screen and (min-width: 0){
+    /* body{
+        display: grid;
+        grid-template-columns: 100%;
+    } */
 
-    .cabecalho{
+    .barra__nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 85%;
         margin: 0 auto;
+        column-gap: 7px;
     }
-
-    .aba__pesquisar{
-        position: absolute;
-        right: 35em;
-    }
-
-    .cabecalho_lupa{
-        position: absolute;
-        left: 13em;
-        top: 6px;
-    }
-
-    .search__area{
-        width: 230px;
-        height: 28px;
-        border: none;
-        border-radius: 2px;
-        background-color: #F5F5F5;
-    }
-
-    .search__area::placeholder{
-        font-weight: 400;
-        font-size: 12px;
-        width: 17em;
-        padding-left: 5px;
-    }
-
     
-    .aba__pesquisar{
-        display: inline;
-    }
-
-    .cabecalho_lupa1{
-        display: none;
-    }
-
-    .wallpaper_infos{
-        width: 85%;
-        padding: 0;
-        right: 70px;
-        top: 135px;
-
-    }
+    .barra__nav img{
+        width: 100%;
+        height: 100%;
+    }  
 
     .textos__principais{
         width: 85%;
         margin: 0 auto;
     }
 
-    .textos__principais h2, h3{
-        padding-left: 0;
+    .textos__principais h2{
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .textos__principais h3{
-        padding-left: 0;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
-    .wallpaper_infos h1{
-        font-size: 52px;
-        margin-bottom:  15px
-    }
-
-    .wallpaper_infos p{
-        font-size: 22px;
-        margin-bottom:  10px
-    }
-
-    .banner_section{
-        height: auto;
-    }
-
-    .wallpaper_button {
-        border: solid 0.1em #2A7AE4;
-        color: #FFFFFF;
-        background-color: #2A7AE4;
-        width: 130px;
-        height: 51px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .barra__nav{
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .barra__nav img {
-        width: 140px;
-        margin-bottom: 5px;
-    }
-
-    .rodape{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .lista__rodape{
-        align-items: flex-start;
-    }
-    .lista__rodape li {
-        height: 42px;
-    }
-
-    .imagem__titulo{
-        display: none;
-    }
-
-    .imagem__titulo--desktop{
-        display: block;
-        align-self: center;
-        position: relative;
-        /* top: -120px; */
-        height: 255px;
-    }
-    
-    .item--desktop{
-        display: inline;
-    }
-    
-    .visualizar__tudo{
+    .visualizar__tudo {
         width: 60px;
     }
+
     .visualizar__tudo--seta::after{
-        right: 80px;
+        width: 5%;
+        justify-content: flex-end;
     }
 
-    .form__formulario{
-        width: auto;
-        height: 265px;
+    .wallpaper_infos {
+        /* width: 90%; */
+        /* right: 42px; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
     }
+}
 
-    .input__form--nome, .input__form--mensagem{
-        width: 434px;
-        height: 56px;
-    }
 
-    .imagem__titulo{
-        display: none;
-    }
-
-    .cabecalho_lupa1{
-        display: none;
-
-    }
-
-    .aba__pesquisar{
-        order: -1;
-    }
-    .cabecalho_logo{
-        order: -1;
-    }
-
-    .rodape{
+@media screen and (min-width: 375px){
+    .cabecalho{
         width: 90%;
         margin: 0 auto;
     }
 
-    /* LOGIN */
-    .input__email{
-        height: 62px;
-        width: 423px;
-        margin-bottom: 7px;
+    .wallpaper_infos{
+        width: 90%;
+        right: 15px
     }
 
-    .input__senha{
-        height: 62px;
-        width: 423px;
-        margin-bottom: 7px;
+    .textos__principais{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
     }
 
-    .button__entrar{
-        border: solid 0.1em #2A7AE4;
-        color: #FFFFFF;
-        background-color: #2A7AE4;
-        width: 430px;
-        height: 62px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .input_sessao{
-        font-weight: 700;
-        font-size: 16px;
-        height: 45px;
-    }
-    
-}
-
-/* TABLET */
-@media (width: 768px) and (max-width: 1023px){
+    /* .visualizar__tudo--seta::after{
+        right: 25px;
+    } */
 
     .barra__nav{
-        width: 85%;
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px){
+
+    .cabecalho_lupa1{
+        display: none;
+    }
+
+    .cabecalho{
+        width: 90%;
+    }
+
+    .cabecalho .alura{
+        order: -1;
+    }
+    .alura__logo-link{
+        order: -1;
+    }
+
+    .aba__pesquisar{
+        display: block;
+        order: -1;
+        position: absolute;
+        right: 45em;
+    }
+
+    .search__area{
+        background-image: url(/Images/Lupa.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: 18.5em;
+        border: none;
+        width: 272px;
+        height: 40px;
+  
+    }
+
+    .search__area::placeholder{
+        position: relative;
+        left: 15px;
+    }
+
+    .barra__nav{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
         margin: 0 auto;
     }
 
-    .banner_section{
-        width: 100%;
-        height: 100%;
+    .wallpaper_infos {
+        width: 90%;
+        right: 42px;
     }
 
-    .wallpaper_infos{
-        width: 85%;
-        padding: 0;
-        right: 45px;
-        top: 105px;
+    /* .visualizar__tudo--seta::after{
+        right: 55px;
+    } */
+
+    .banner_section{
+        width: 100%;
+        height: 300px;
+    }
+
+    .wallpaper_infos {
+        row-gap: 15px;
+        top: 140px;
     }
 
     .wallpaper_infos h1{
         font-size: 52px;
-        margin-bottom:  15px
+        
     }
 
     .wallpaper_infos p{
         font-size: 22px;
-        margin-bottom:  10px
-    }
 
-    .principal .textos__principais{
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .pritextos__principais h3, h2{
-
-        padding-left: 0;
-    }
-
-    .visualizar__tudo--seta::after{
-        width: 20px;
-        right: 70px;
     }
 
     .rodape{
-        width: 100%;
+        display: flex;
         flex-direction: row;
-        align-items: center;
+        height: 20em;
         justify-content: space-around;
-        height: 25em;
-    }
-
-    .imagem__titulo{
-        padding: 0;
-        margin-bottom: 7px;
     }
 
     .lista__rodape{
-        align-items: flex-start;
-    }
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 5px;
 
-    .lista__rodape li{
-        height: 35px;
     }
-
-    .input__form--nome{
-        width: 434px;
+    .imagem__titulo {
+        display: grid;
+        justify-content: center;
+        row-gap: 15px;
         
     }
 
-    .input__form--mensagem{
-        width: 434px;
-        margin-bottom: 15px;
-    }
-
     .form__formulario{
-        width: auto;
-        height: 17em;
-    }
-
-    .form__formulario label{
-        margin-bottom: 15px;
+        width: 50%;
     }
 
     .imagem__titulo--desktop{
         display: none;
     }
-
-    .cabecalho_lupa1{
-        display: inline;
-    }
-    .aba__pesquisar{
-        order: -1;
-    }
-    .cabecalho_logo{
-        order: -1;
-    }
-
 }
 
-/* CELULAR */
-@media (min-width: 425px) and (max-width: 767px){
-
-    .wallpaper_infos{
-        padding-left: 45px;
-        top: 65px;
-    }
-
-    .textos__principais{
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .visualizar__tudo{
-        width: 90px;
-        padding-right: 0;
-    }
-
-    .visualizar__tudo--seta::after {
-        position: absolute;
-        right: 45px;
-        font-size: 5px;
-    }
-
-    .barra__nav{
-        justify-content: space-between;
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .barra__nav img {
-        width: 155px;
-        margin-bottom: 5px;
-    }
-
-    
-    .cabecalho_lupa1{
-        display: inline;
-    }
-    
-}
-
-
-@media(min-width: 1366px){
-    
-    .wallpaper_infos{
-        width: 87%;
-        padding: 0;
-        right: 70px;
-        top: 210px;
-    }
-
-    .textos__principais{
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .textos__principais h2, h3{
-        padding-left: 0;
-        margin-left: 10px;
-    }
-
-    .textos__principais h3{
-        padding-left: 0;
-    }
-
-    .wallpaper_infos h1{
-        font-size: 52px;
-        margin-bottom:  15px
-    }
-
-    .wallpaper_infos p{
-        font-size: 22px;
-        margin-bottom:  10px
-    }
-
-    .banner_section{
-        height: auto;
-    }
-
-    .wallpaper_button {
-        border: solid 0.1em #2A7AE4;
-        color: #FFFFFF;
-        background-color: #2A7AE4;
-        width: 130px;
-        height: 51px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .barra__nav{
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .barra__nav img {
-        width: 180px;
-        margin-bottom: 5px;
-    }
-
+@media screen and (min-width: 1024px){
     .rodape{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .lista__rodape{
-        align-items: flex-start;
-    }
-    .lista__rodape li {
-        height: 42px;
+        grid-template-columns: auto 1fr 1fr;
     }
 
     .imagem__titulo{
@@ -412,106 +200,18 @@
 
     .imagem__titulo--desktop{
         display: block;
-        align-self: center;
-        position: relative;
-        /* top: -120px; */
-        height: 255px;
+        height: 65%
+
     }
-    
-    .item--desktop{
-        display: inline;
-    }
-    
-    .visualizar__tudo{
-        width: 60px;
-    }
-    .visualizar__tudo--seta::after{
-        right: 110px;
+
+    .lista__rodape{
+        grid-column: 2;
+        row-gap: 10px;
+        align-items: flex-start;
     }
 
     .form__formulario{
-        width: auto;
-        height: 265px;
-    }
-
-    .input__form--nome, .input__form--mensagem{
-        width: 434px;
-        height: 56px;
-    }
-
-    .aba__pesquisar{
-        display: inline;
-    }
-
-    .cabecalho_lupa1{
-        display: none;
-    }
-    .aba__pesquisar{
-        order: -1;
-    }
-    .cabecalho_logo{
-        order: -1;
-    }
-
-    .cabecalho{
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .aba__pesquisar{
-        position: absolute;
-        right: 50em;
-    }
-
-    .cabecalho_lupa{
-        position: absolute;
-        left: 13em;
-        top: 6px;
-    }
-
-    .search__area{
-        width: 230px;
-        height: 28px;
-        border: none;
-        border-radius: 2px;
-        background-color: #F5F5F5;
-    }
-
-    .search__area::placeholder{
-        font-weight: 400;
-        font-size: 12px;
-        width: 17em;
-        padding-left: 5px;
-    }
-
-
-    /* LOGIN */
-    .input__email{
-        height: 64px;
-        width: 423px;
-        margin-bottom: 7px;
-    }
-
-    .input__senha{
-        height: 64px;
-        width: 423px;
-        margin-bottom: 7px;
+        grid-column: 3;
     }
     
-    .button__entrar{
-        border: solid 0.1em #2A7AE4;
-        color: #FFFFFF;
-        background-color: #2A7AE4;
-        width: 430px;
-        height: 62px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .input_sessao{
-        font-weight: 700;
-        font-size: 16px;
-        height: 45px;
-    }
 }
-
