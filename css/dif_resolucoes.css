@@ -106,8 +106,7 @@
     .aba__pesquisar{
         display: block;
         order: -1;
-        position: absolute;
-        right: 45em;
+        width: 50%;
     }
 
     .search__area{
@@ -130,6 +129,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 90%;
         margin: 0 auto;
+    }
+
+    .lista__itens{
+        row-gap: 15px;
     }
 
     .wallpaper_infos {
