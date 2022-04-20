@@ -137,6 +137,11 @@
         right: 42px;
     }
 
+    .wallpaper_button{
+        width: 119px;
+        height: 40px;
+    }
+
     /* .visualizar__tudo--seta::after{
         right: 55px;
     } */
@@ -190,6 +195,17 @@
 }
 
 @media screen and (min-width: 1024px){
+
+    .wallpaper_infos{
+        top: 120px
+    }
+
+
+    .wallpaper_button{
+        width: 130px;
+        height: 51px;
+    }
+
     .rodape{
         grid-template-columns: auto 1fr 1fr;
     }
