@@ -26,6 +26,10 @@ body{
     cursor: pointer;
 }
 
+.search__area--login{
+    display: none;
+}
+
 .aba__pesquisar{
     display: none;
 }

@@ -1,0 +1,94 @@
+@media screen and (min-width: 0){
+    .aba__pesquisar-login{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    
+    .cabecalho{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo_alura{
+        order: -1;
+    }
+
+    .search__area--login{
+        background-image: url(/Images/Lupa.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: 18.5em;
+        border: none;
+        width: 272px;
+        display: inline;    
+        height: 40px;
+    }
+
+    .search__area{
+        display: none;
+    }
+
+    .aba__pesquisar-login{
+        display: inline;
+        order: -1;
+        width: 50%;
+    }
+
+    .cabecalho_lupa1{
+        display: none;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        height: 280px;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .imagem__titulo{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .lista__rodape{
+        row-gap: 7px;
+    }
+
+    .form__formulario{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+
+    .rodape{
+        grid-template-columns: auto 1fr 1fr;    
+    }
+
+    .imagem__titulo{
+        display: none;
+    }
+
+    .imagem__titulo--desktop{
+        display: block;
+        height: 65%;
+    }
+
+    .form__formulario{
+        width: 50%;
+        grid-column: 3;
+    }
+
+    .lista__rodape{
+        align-items: flex-start;
+    }
+}
