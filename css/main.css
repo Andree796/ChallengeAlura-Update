@@ -331,3 +331,25 @@ body{
     font-weight: 400;
 }
 
+
+
+/* TODOS OS PRODUTOS, ABA */
+.todos_produtos{
+    font-size: 22px;
+    font-weight: 700;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 7px;
+}
+
+.principal .nav_bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 7px;
+}
+
+.lista__itens{
+    display: grid;
+    row-gap: 7px;
+}
